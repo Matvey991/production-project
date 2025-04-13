@@ -19,10 +19,10 @@ import { AppImage } from '@/shared/ui/AppImage';
 import { Skeleton } from '@/shared/ui/Skeleton';
 
 interface ArticleListItemProps {
-   className?: string;
-   article: Article;
-   view: ArticleView;
-   target?: HTMLAttributeAnchorTarget;
+    className?: string;
+    article: Article;
+    view: ArticleView;
+    target?: HTMLAttributeAnchorTarget;
 }
 
 export const ArticleListItem = memo((props: ArticleListItemProps) => {
